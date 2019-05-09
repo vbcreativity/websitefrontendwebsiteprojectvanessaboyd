@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,700,700i,900,900i');
+/* font-family: 'Muli', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+/* font-family: 'Fjalla One', sans-serif;*/
+
+
+/*My wrappers */
+.header-wrapper {
+}
+.nav-wrapper {
+	background-color: #000000;
+    width: 100%;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background: rgba(0, 0, 0, 0.5); 
+}
+.main-wrapper {
+}
+.footer-wrapper {
+	background-color: #000000;
+}
+
+/*hero images*/
+.hero-image1 {
+background-image: url(background_img/norfolk-island-27.JPG);
+  background-color: #cccccc;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    padding-bottom: 20%;
+}
+.hero-image2 {
+background-image: url(background_img/norfolk-island-22-2.jpg);
+  background-color: #cccccc;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    padding-bottom: 20%;
+}
+.hero-image3 {
+background-image: url(background_img/norfolk-island-5.jpg);
+  background-color: #cccccc;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    padding-bottom: 20%;
+}
+.hero-image4 {
+background-image: url(background_img/norfolk-island-16.JPG);
+  background-color: #cccccc;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    padding-bottom: 20%;
+}
+
+/* main css */
+body {
+	background-color: #FFFFFF;
+}
+p {
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+hr {
+	margin: 85px 300px 75px 300px;
+}
+
+/*Header*/
+header {
+	width: 100%;
+	height: 125px;
+}
+#logo {
+	color: #FFFFFF;
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: 600;
+	font-size: 45px;
+}
+nav {
+    opacity: 1.0;
+	text-align: center;
+}
+nav ul li {
+	font-family: 'Muli', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 0 60px;
+    display: inline;
+    vertical-align: middle;
+}
+nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+nav ul li a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #999999;
+}
+
+/*Main*/
+main {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+main h2 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 30px;
+	padding-left: 20%;
+	padding-bottom: 20px;
+	
+}
+main h3 {
+	font-family: 'Muli', sans-serif;
+	font-size: 27px;
+	font-weight: 400;
+	padding-top: 50px;
+	padding-left: 20%;
+	padding-bottom: 20px;
+	
+}
+main h4 {
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	padding-top: 30px;
+	padding-left: 20%;
+	padding-bottom: 20px;
+	
+}
+main p {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-top: 20px;
+}
+main p a {
+	color: #CC6600;
+	font-weight: 600;
+	text-decoration: none;
+}
+main p a:visited {
+	color: #CC6600;
+	text-decoration: none;
+}
+main p a:hover {
+	color: #CC9900;
+}
+main ul {
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	padding-left: 23%;
+	padding-right: 20%;
+	padding-top: 10px;
+	list-style-type: circle;
+	line-height: 27px;
+}
+main ul li {
+	padding-top: 5px;
+}
+
+/*Images*/
+img {
+	margin: 25px 25px;
+}
+#description-img1 {
+	width: 25%;
+	height: auto;
+	padding-right: 20%;
+    float: right;
+}
+#history-img1 {
+	width: 25%;
+	height: auto;
+	padding-right: 20%;
+    float: right;
+}
+#locations-img1 {
+	width: 18%;
+	height: auto;
+	padding-right: 20%;
+    float: right;
+}
+#locations-img2 {
+	width: 30%;
+	height: auto;
+	padding-right: 20%;
+    float: right;
+}
+#locations-img3 {
+	width: 30%;
+	height: auto;
+	padding-right: 20%;
+    float: right;
+}
+#locations-img4 {
+	width: 30%;
+	height: auto;
+	padding-right: 20%;
+    float: right;
+}
+
+/*Footer*/
+footer {
+	height: 15%;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer p {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	font-weight: 100;
+	font-size: 10px;
+}
